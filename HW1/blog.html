@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - My Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="image/webpage_icon.png">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Top Navigation -->
+        <nav class="top-nav">
+            <div class="nav-container">
+                <a href="index.html" class="nav-brand"><img src="image/Home_icon .png" alt="Home" class="nav-brand-icon"/></a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link active">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="mobile-toggle" id="mobileToggle">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="6" x2="21" y2="6"/>
+                        <line x1="3" y1="12" x2="21" y2="12"/>
+                        <line x1="3" y1="18" x2="21" y2="18"/>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul class="mobile-nav-list">
+                <li class="mobile-nav-item"><a href="index.html" class="mobile-nav-link">Home</a></li>
+                <li class="mobile-nav-item"><a href="index.htmltml" class="mobile-nav-link">Projects</a></li>
+                <li class="mobile-nav-item"><a href="blog.html" class="mobile-nav-link active">Blog</a></li>
+                <li class="mobile-nav-item"><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Blog Section -->
+            <section class="page-section">
+                <div class="content-wrapper">
+                    <h1 class="page-title">Blog</h1>
+                    <p class="page-subtitle">Thoughts, insights, and technical articles</p>
+                    
+                    <div class="blog-list">
+                        <article class="blog-post">
+                            <h3 class="blog-title">Getting Started with Web Development</h3>
+                            <div class="blog-meta">
+                                <span class="blog-date">January 15, 2026</span>
+                                <span class="blog-category">Tutorial</span>
+                            </div>
+                            <p class="blog-excerpt">A beginner's guide to starting your journey in web development, covering the fundamentals of HTML, CSS, and JavaScript.</p>
+                            <a href="#" class="blog-link">Read More →</a>
+                        </article>
+
+                        <article class="blog-post">
+                            <h3 class="blog-title">Best Practices for Modern CSS</h3>
+                            <div class="blog-meta">
+                                <span class="blog-date">January 12, 2026</span>
+                                <span class="blog-category">Web Design</span>
+                            </div>
+                            <p class="blog-excerpt">Explore modern CSS techniques including Flexbox, Grid, custom properties, and responsive design patterns for creating scalable stylesheets.</p>
+                            <a href="#" class="blog-link">Read More →</a>
+                        </article>
+
+                        <article class="blog-post">
+                            <h3 class="blog-title">JavaScript Tips and Tricks</h3>
+                            <div class="blog-meta">
+                                <span class="blog-date">January 8, 2026</span>
+                                <span class="blog-category">Programming</span>
+                            </div>
+                            <p class="blog-excerpt">Useful JavaScript patterns, ES6+ features, and debugging techniques to improve your code quality and productivity.</p>
+                            <a href="#" class="blog-link">Read More →</a>
+                        </article>
+
+                        <article class="blog-post">
+                            <h3 class="blog-title">The Future of Web Technology</h3>
+                            <div class="blog-meta">
+                                <span class="blog-date">January 1, 2026</span>
+                                <span class="blog-category">Trends</span>
+                            </div>
+                            <p class="blog-excerpt">An exploration of emerging technologies and trends shaping the future of web development, from AI integration to new frameworks.</p>
+                            <a href="#" class="blog-link">Read More →</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
